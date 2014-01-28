@@ -48,6 +48,6 @@ table {
 }
 
 /* End of CSS Reset */
-span {  
- 	display: block;
- }	
+.submit {
+	float: right;
+}	
