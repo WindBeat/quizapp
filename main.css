@@ -48,6 +48,14 @@ table {
 }
 
 /* End of CSS Reset */
+
+p {
+	padding-bottom: 5px;
+}
+
+li {
+	padding: 5px;
+}
 .submit {
 	float: right;
 }	
