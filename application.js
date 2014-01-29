@@ -1,4 +1,5 @@
-$(document).ready(function() {
+var score = 0;
+
 var questions = [
         {question: "Which country has held the most Winter Olympics?", choices: ["Canada", "Russia", "United States", "Brazil"], answer:2},
         {question: "When did snowboarding start at the Olympics?", choices: [1998, 2005, 1986, 1943], answer:0},
@@ -11,3 +12,7 @@ var questions = [
         {question: "Where will the 2018 Winter Olympics be held?",choices: ["Iceland", "Canada", "Brazil", "South Korea"], answer:3},
         {question: "What event has been for men since the start of the Winter Games and will allow women to go for the gold for the first time in Sochi?",  choices: ["Snowboarding", "Ski jump", "Hockey", "Skating], answer:1}
         ];
+        
+$(document).ready(function() {
+        
+        
