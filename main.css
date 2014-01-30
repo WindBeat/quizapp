@@ -77,7 +77,7 @@ a {
 	box-sizing: border-box;
 }
 #accordion {
-	width: 300px;
+	width: 600px;
 	margin: 50px auto;
 }
 #accordion .ui-accordion-header {
