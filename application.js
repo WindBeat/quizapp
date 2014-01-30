@@ -1,4 +1,5 @@
 var score = 0;
+var i = 0;
 
 var questions = [
         {question: "Which country has held the most Winter Olympics?", choices: ["Canada", "Russia", "United States", "Brazil"], answer:2},
@@ -15,4 +16,17 @@ var questions = [
         
 $(document).ready(function() {
         
-        
+        $(.submit).click(function() {
+                 var answer = $('input[name="radio"]:checked').val();
+                 
+                 if (answer === undefined) {
+                         alert("Select an option.");
+                 }
+                 else if (parseInt(answer) === questions[i].answer){
+                         alert("That is Correct.");
+                 }
+                 else {
+                         alert("Wrong Answer.");
+                 }
+        }
+};        
