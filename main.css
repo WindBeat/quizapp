@@ -58,56 +58,7 @@ a {
     text-decoration: none;  
 }  
 
-:focus, :active {  
-    outline: 0;  
-}  
-
-p {
-	padding-bottom: 5px;
-}
-
-* {   
-    -moz-box-sizing: border-box;   
-    -webkit-box-sizing: border-box;   
-    box-sizing: border-box;  
-} 
-
-li {
-	padding: 5px;
-}
-
-.submit {
-	float: right;
-}
-
 #accordion .ui-accordion-content {
-	width: 100%;
 	background-color: #f3f3f3;
 	color: #777;
-	font-size: 10pt;
-}
-
-#accordion .ui-accordion-header {
-	background-color: #ccc;
-	margin: 0px;
-}
-
-#accordion .ui-accordion-header a {
-	color: #fff;
-	line-height: 42px;
-	display: block;
-	font-size: 12pt;
-	width: 100%;
-	text-indent: 10px;
-}
-
-#accordion .ui-accordion-header:first-of-type {
-	background-color: #fa9300;
-	background-image: -moz-linear-gradient(top,  #fa9300 0%, #dc621e 100%); /* FF3.6+ */
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fa9300), color-stop(100%,#dc621e)); /* Chrome,Safari4+ */
-	background-image: -webkit-linear-gradient(top,  #fa9300 0%,#dc621e 100%); /* Chrome10+,Safari5.1+ */
-	background-image: -o-linear-gradient(top,  #fa9300 0%,#dc621e 100%); /* Opera 11.10+ */
-	background-image: -ms-linear-gradient(top,  #fa9300 0%,#dc621e 100%); /* IE10+ */
-	background-image: linear-gradient(to bottom,  #fa9300 0%,#dc621e 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa9300', endColorstr='#dc621e',GradientType=0 ); /* IE6-9 */
 }
