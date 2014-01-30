@@ -16,7 +16,7 @@ var questions = [
         
 $(document).ready(function() {
         
-        $(.submit).click(function() {
+        $(".submit").click(function() {
                  var answer = $('input[name="radio"]:checked').val();
                  
                  if (answer === undefined) {
