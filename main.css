@@ -49,3 +49,6 @@ table {
 
 /* End of CSS Reset */
 
+.submit {
+	float: right;
+}
