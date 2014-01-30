@@ -65,25 +65,32 @@ html {
 	height: 100%;
 	background: #e3e3e0;
 }
+
 a {
 	text-decoration: none;
 }
+
 :focus, :active {
 	outline: 0;
 }
+
 * { 
 	-moz-box-sizing: border-box; 
 	-webkit-box-sizing: border-box; 
 	box-sizing: border-box;
 }
+
 #accordion {
 	width: 600px;
+	height:210px;
 	margin: 50px auto;
 }
+
 #accordion .ui-accordion-header {
 	background-color: #ccc;
 	margin: 0px;
 }
+
 #accordion .ui-accordion-header a {
 	color: #fff;
 	line-height: 42px;
@@ -97,6 +104,7 @@ a {
 	border-bottom: 1px solid rgba(0, 0, 0, .2);
 	border-top: 1px solid rgba(250, 250, 250, .2);
 }
+
 #accordion .ui-accordion-content {
 	width: 100%;
 	background-color: #f3f3f3;
@@ -106,13 +114,15 @@ a {
 	box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, .2),
 				inset 0px -1px 0px 0px rgba(0, 0, 0, .4);
 }
+
 #accordion .ui-accordion-content > * {
 	margin: 0;
-	padding: 20px;
 }
+
 #accordion .ui-accordion-content a {
 	color: #777;
 }
+
 #accordion .ui-accordion-header:first-of-type {
 background: #499bea; /* Old browsers */
 	background: -moz-linear-gradient(top,  #499bea 0%, #207ce5 100%); /* FF3.6+ */
@@ -124,6 +134,7 @@ background: #499bea; /* Old browsers */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5',GradientType=0 ); /* IE6-9 */
 
 }
+
 #accordion .ui-accordion-header:nth-of-type(2) {
 	background: #febf01; /* Old browsers */
 	background: -moz-linear-gradient(top,  #febf01 0%, #febf01 100%); /* FF3.6+ */
@@ -135,6 +146,7 @@ background: #499bea; /* Old browsers */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febf01', endColorstr='#febf01',GradientType=0 ); /* IE6-9 */
 
 }
+
 #accordion .ui-accordion-header:nth-of-type(3) {
 	background: #000202; /* Old browsers */
 	background: -moz-linear-gradient(top,  #000202 0%, #010200 100%); /* FF3.6+ */
@@ -147,6 +159,7 @@ background: #499bea; /* Old browsers */
 
 
 }
+
 #accordion .ui-accordion-header:nth-of-type(4) {
 	background: #299a0b; /* Old browsers */
 	background: -moz-linear-gradient(top,  #299a0b 0%, #299a0b 100%); /* FF3.6+ */
@@ -159,6 +172,7 @@ background: #499bea; /* Old browsers */
 
 
 }
+
 #accordion .ui-accordion-header:nth-of-type(5) {
 	background: #ff1a00; /* Old browsers */
 	background: -moz-linear-gradient(top,  #ff1a00 0%, #ff1a00 100%); /* FF3.6+ */
@@ -171,6 +185,7 @@ background: #499bea; /* Old browsers */
 
 
 }
+
 #accordion .ui-accordion-header:nth-of-type(6) {
 background: #499bea; /* Old browsers */
 	background: -moz-linear-gradient(top,  #499bea 0%, #207ce5 100%); /* FF3.6+ */
@@ -182,6 +197,7 @@ background: #499bea; /* Old browsers */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5',GradientType=0 ); /* IE6-9 */
 
 }
+
 #accordion .ui-accordion-header:nth-of-type(7) {
 	background: #febf01; /* Old browsers */
 	background: -moz-linear-gradient(top,  #febf01 0%, #febf01 100%); /* FF3.6+ */
@@ -194,6 +210,7 @@ background: #499bea; /* Old browsers */
 
 
 }
+
 #accordion .ui-accordion-header:nth-of-type(8) {
 	background: #000202; /* Old browsers */
 	background: -moz-linear-gradient(top,  #000202 0%, #010200 100%); /* FF3.6+ */
@@ -205,6 +222,7 @@ background: #499bea; /* Old browsers */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000202', endColorstr='#010200',GradientType=0 ); /* IE6-9 */
 
 }
+
 #accordion .ui-accordion-header:nth-of-type(9) {
 	background: #299a0b; /* Old browsers */
 	background: -moz-linear-gradient(top,  #299a0b 0%, #299a0b 100%); /* FF3.6+ */
@@ -217,6 +235,7 @@ background: #499bea; /* Old browsers */
 
 
 }
+
 #accordion .ui-accordion-header:last-of-type {
 	background: #ff1a00; /* Old browsers */
 background: -moz-linear-gradient(top,  #ff1a00 0%, #ff1a00 100%); /* FF3.6+ */
@@ -232,6 +251,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1a00', end
 #accordion .ui-accordion-header:first-of-type a {
 	box-shadow: 0px -1px 0px 0px #b85c0f;
 }
+
 #accordion .ui-accordion-content:last-of-type {
 	box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, .2),
 				inset 0px 0 0px 0px rgba(0, 0, 0, .5);
