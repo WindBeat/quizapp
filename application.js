@@ -28,5 +28,5 @@ $(document).ready(function() {
                  else {
                          alert("Wrong Answer.");
                  }
-        )}
+        })
 });        
