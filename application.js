@@ -17,7 +17,7 @@ var questions = [
 $(document).ready(function() {
         
         $(".submit").click(function() {
-                 var answer = $('input[name="radio"]:checked').val();
+                 var answer = $('input[type="radio"]:checked').val();
                  
                  if (answer === undefined) {
                          alert("Select an option.");
@@ -28,5 +28,5 @@ $(document).ready(function() {
                  else {
                          alert("Wrong Answer.");
                  }
-        }
-};        
+        )}
+});        
