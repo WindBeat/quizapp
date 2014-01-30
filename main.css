@@ -60,3 +60,8 @@ li {
 .submit {
 	float: right;
 }
+
+#accordion .ui-accordion-header {
+	background-color: #ccc;
+	margin: 0px;
+}
