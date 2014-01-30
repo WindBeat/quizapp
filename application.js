@@ -11,7 +11,7 @@ var questions = [
         {question: "What is the world record speed for downhill skiing?",   choices: ["200mph", "156mph", "40mph", "90mph"], answer:1},
         {question: "Which country has won the most gold medals at the Winter Olympics?",    choices: ["United States", "China", "Norway", "Russia"], answer:2},
         {question: "Where will the 2018 Winter Olympics be held?",choices: ["Iceland", "Canada", "Brazil", "South Korea"], answer:3},
-        {question: "What event has been for men since the start of the Winter Games and will allow women to go for the gold for the first time in Sochi?",  choices: ["Snowboarding", "Ski jump", "Hockey", "Skating], answer:1}
+        {question: "What event has been for men since the start of the Winter Games and will allow women to go for the gold for the first time in Sochi?",  choices: ["Snowboarding", "Ski jump", "Hockey", "Skating"], answer:1}
         ];
         
 $(document).ready(function() {
