@@ -24,7 +24,8 @@ $(document).ready(function() {
         $(".submit").click(function() {
                  
                  var answer = $('input[type="radio"]:checked').val();
-                 i = (i+1)%questions.length;
+                 
+                 i = (i++)%questions.length;
                  
                         if (answer === undefined) {
                                 alert("Select an option.");
