@@ -23,15 +23,19 @@ $(document).ready(function() {
                  
                  var answer = $('input[type="radio"]:checked').val();
                  
+                 var number = 0;
+                 
                  if (answer === undefined) {
                          alert("Select an option.");
                  }
                  //This does not work. Want to pull answer from array for each question.//
-                 else if (parseInt(answer) === questions[this.question].correct){
+                 else if (parseInt(answer) === questions[number].correct){
                          alert("That is Correct.");
+                         number++;
                  }
                  else {
                          alert("Wrong Answer.");
+                         number++;
                  }
                  
          
