@@ -32,7 +32,7 @@ $(document).ready(function() {
                                 
                         }
                  //This does not work. Want to pull answer from array for each question.//
-                        else if (parseInt(answer) === questions[i].correct){
+                        else if (parseInt(answer) === questions[i-1].correct){
                                 alert("That is Correct.");
                                 
                         }
