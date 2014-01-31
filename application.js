@@ -18,10 +18,10 @@ var questions = [
         
 $(document).ready(function() {
         
-        $(this).closest('.submit').click(function() {
+        $(".submit").click(function() {
                  var answer = $('input[type="radio"]:checked').val();
                  
-                 for (var i=0;i<questions.length;i++)
+                var i = 0;
                  
                  if (answer === undefined) {
                          alert("Select an option.");
