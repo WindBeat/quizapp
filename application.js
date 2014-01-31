@@ -18,7 +18,7 @@ var questions = [
         
 $(document).ready(function() {
         
-        $(".submit").click(function() {
+        $(this).closest('.submit').click(function() {
                  var answer = $('input[type="radio"]:checked').val();
                  
                  for (var i=0;i<questions.length;i++)
