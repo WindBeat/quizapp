@@ -1,5 +1,5 @@
 var score = 0;
-var i = 0;
+for (var i=0;i<questions.length;i++);
 
 var questions = [
         {question: "Which country has held the most Winter Olympics?", choices: ["Canada", "Russia", "United States", "Brazil"], correct:2},
