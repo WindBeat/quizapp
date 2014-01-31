@@ -1,5 +1,7 @@
 var score = 0;
 
+var i = 0;
+
 
 
 var questions = [
@@ -22,22 +24,20 @@ $(document).ready(function() {
         $(".submit").click(function() {
                  
                  var answer = $('input[type="radio"]:checked').val();
-                 
-                var i;
-                for (i = 0; i < questions.length; ++i) {
+                 i = (i+1)%questions.length;
                  
                         if (answer === undefined) {
                                 alert("Select an option.");
-                                return;
+                                
                         }
                  //This does not work. Want to pull answer from array for each question.//
                         else if (parseInt(answer) === questions[i].correct){
                                 alert("That is Correct.");
-                                return;
+                                
                         }
                         else {
                                 alert("Wrong Answer.");
-                                return;
+                                
                         }
                  
                 }
