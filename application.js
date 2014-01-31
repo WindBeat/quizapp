@@ -23,7 +23,7 @@ $(document).ready(function() {
                  
                  var answer = $('input[type="radio"]:checked').val();
                  
-                 for(var i=0, i < questions.length; i++) {
+                 for(var i=0; i < questions.length; i++) 
                  
                  if (answer === undefined) {
                          alert("Select an option.");
@@ -36,6 +36,6 @@ $(document).ready(function() {
                          alert("Wrong Answer.");
                  }
                  
-                 }
+         
         })
 });        
