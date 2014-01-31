@@ -39,8 +39,6 @@ $(document).ready(function() {
                                 alert("Wrong Answer.");
                                 
                         }
-                 
-                }
          
         })
 });        
