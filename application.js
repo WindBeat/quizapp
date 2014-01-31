@@ -26,16 +26,16 @@ $(document).ready(function() {
                 var i;
                 for (i = 0; i < questions.length; ++i) {
                  
-                 if (answer === undefined) {
-                         alert("Select an option.");
-                 }
+                        if (answer === undefined) {
+                                alert("Select an option.");
+                        }
                  //This does not work. Want to pull answer from array for each question.//
-                 else if (parseInt(answer) === questions[i].correct){
-                         alert("That is Correct.");
-                 }
-                 else {
-                         alert("Wrong Answer.");
-                 }
+                        else if (parseInt(answer) === questions[i].correct){
+                                alert("That is Correct.");
+                        }
+                        else {
+                                alert("Wrong Answer.");
+                        }
                  
                 }
          
