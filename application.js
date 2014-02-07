@@ -6,7 +6,7 @@ var i = 0;
 
 var questions = [
         {question: "Which country has held the most Winter Olympics?", choices: ["Canada", "Russia", "United States", "Brazil"], correct:2},
-        {question: "When did snowboarding start at the Olympics?", choices: [1998, 2005, 1986, 1943], correct:0},
+        {question: "When did snowboarding start at the Olympics?", choices: [1998, 2005, 1986, 1943], correct:5},
         {question: "Which American has the most gold medals in a single Winter Olympics event?",  choices: ["Shaun White", "Usain Bolt", "Eric Heiden", "Jason Brown"],   correct:2},
         {question: "What is the oldest event in the Winter Olympics ?",   choices: ["Bobsled", "Snowboarding", "Figure Skating", "Hockey"], correct:2},
         {question: "When were the first Winter Olympic games held?",    choices: [1924, 1989, 2001, 1890], correct:0},
