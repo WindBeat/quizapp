@@ -63,7 +63,7 @@
       <li><label><input type="radio" id="radio3" name="radio" value="2">2001</label></li>
       <li><label><input type="radio" id="radio4" name="radio" value="3">1890</label></li>
     </ol>
-    <button class="submit" onclick="openNextAccordionPanel()">Submit</button> 
+    <button class="submit">Submit</button> 
   </div>
   <h3>Question 6</h3>
   <div>
@@ -123,18 +123,12 @@
 </div>
  
 <script>
-$("#accordion").accordion();
 
-
-     var $accordion = $("#accordion").accordion();
-        function openNextAccordionPanel() {
-
-        var current = $accordion.accordion("option", "active"),
-        maximum = $accordion.find("h3").length,
-        next = current + 1 === maximum ? 0 : current + 1;
-                $accordion.accordion("activate", next);
-       
-  }
+$(function() {
+    $( "#accordion" ).accordion({
+      heightStyle: "content"
+    });
+  });
 </script>
 <script type="text/javascript" src="application.js"></script> 
 </body>
