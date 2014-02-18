@@ -19,12 +19,7 @@ var questions = [
         
         
         
-$(document).ready(function() {
-        
-        $('#button').keypress(function(event) {
-        if(event.keyCode==13){
-			$('#submit').click();
-		}
+
         
         $(".submit").click(function() {
                  
@@ -46,20 +41,6 @@ $(document).ready(function() {
                                 
                         }
          
-        })
+        });
         
-});
 
-        $("#button").click(function(e){
-  e.preventDefault();
-  var acc   = $("#accordion"),
-      index = acc.accordion('option','active'),
-      total = acc.children('div').length,
-      nxt   = index + 1;
-
-  if (nxt >= total) {
-     nxt = 0; // Loop around to the first item
-  }
-
-  acc.accordion('activate', nxt);
-});
