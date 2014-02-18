@@ -55,5 +55,5 @@ $(document).ready(function() {
 
     $("#accordion").accordion("option", "active", index);
 
-}
+})
 });        
