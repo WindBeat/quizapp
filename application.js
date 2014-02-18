@@ -42,4 +42,18 @@ $(document).ready(function() {
                         }
          
         })
+        
+        $("#button").click(function(){
+    var index = $("#accordion").accordion('option','active');
+    var total = $("#accordion").children('div').length;
+    index++;
+
+    // include restart same as previous answer     
+    if (index >= total) {
+        index = 0;
+    }
+
+    $("#accordion").accordion("option", "active", index);
+
+}
 });        
