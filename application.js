@@ -21,7 +21,7 @@ var questions = [
         
 
         
-        $(".submit").click(function() {
+        $(document).on("click", ".submit", function() {
                  
                  var answer = $('input[type="radio"]:checked').val();
                  
