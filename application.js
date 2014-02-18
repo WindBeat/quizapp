@@ -43,5 +43,12 @@ var questions = [
          
         });
         
-        
+        var $accordion = $("#accordion").accordion();
+        function openNextAccordionPanel() {
+                var current = $accordion.accordion("option","active"),
+                maximum = $accordion.find("h3").length,
+                next = current+1 === maximum ? 0 : current+1;
+    // $accordion.accordion("activate",next); // pre jQuery UI 1.10
+                $accordion.accordion("option","active",next);
+}
 
