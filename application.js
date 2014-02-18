@@ -43,6 +43,8 @@ $(document).ready(function() {
          
         })
         
+});
+
         $("#button").click(function(e){
   e.preventDefault();
   var acc   = $("#accordion"),
@@ -55,6 +57,4 @@ $(document).ready(function() {
   }
 
   acc.accordion('activate', nxt);
-})
-        
-});        
+});
