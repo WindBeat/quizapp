@@ -21,6 +21,11 @@ var questions = [
         
 $(document).ready(function() {
         
+        $('#button').keypress(function(event) {
+        if(event.keyCode==13){
+			$('#submit').click();
+		}
+        
         $(".submit").click(function() {
                  
                  var answer = $('input[type="radio"]:checked').val();
