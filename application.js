@@ -43,7 +43,7 @@ var questions = [
          
         });
         
-        var $accordion = $("#accordion").accordion();
+        var $accordion = $("#accordion").accordion({heightStyle: "content"});
         function openNextAccordionPanel() {
                 var current = $accordion.accordion("option","active"),
                 maximum = $accordion.find("h3").length,
