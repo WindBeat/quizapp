@@ -41,7 +41,7 @@ var questions = [
                         }
                         else {
                                 wrong++;
-                                alert("Wrong Answer." + "  " + "Correct Answers :" + " " + score + "   " + "Wrong Answers :" + " " + wrong);
+                                alert("That is Wrong." + "  " + "Correct Answers :" + " " + score + "   " + "Wrong Answers :" + " " + wrong);
                                 
                         }
          
