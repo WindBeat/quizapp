@@ -28,12 +28,13 @@ var questions = [
                  i = (i+1)%11;
                  
                         if (answer === undefined) {
-                                alert("Select an option.");
+                                alert("You did not select an answer.");
                                 
                         }
                  //This does not work. Want to pull answer from array for each question.//
                         else if (parseInt(answer) === questions[i-1].correct){
-                                alert("That is Correct.");
+                                score++;
+                                alert("That is Correct." + score);
                                 
                         }
                         else {
