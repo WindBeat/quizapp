@@ -1,6 +1,6 @@
 var score = 0;
 
-var wrong = 1;
+var wrong = 0;
 
 var i = 0;
 
@@ -40,8 +40,9 @@ var questions = [
                                 
                         }
                         else {
-                                alert("Wrong Answer." + " " + "Correct Answers :" + " " + score + " " + "Wrong Answers :" + " " + wrong);
                                 wrong++;
+                                alert("Wrong Answer." + " " + "Correct Answers :" + " " + score + " " + "Wrong Answers :" + " " + wrong);
+                                
                         }
          
         });
