@@ -34,11 +34,11 @@ var questions = [
                  //This does not work. Want to pull answer from array for each question.//
                         else if (parseInt(answer) === questions[i-1].correct){
                                 score++;
-                                alert("That is Correct." + "Correct Answers :" + "" + score);
+                                alert("That is Correct." + " " + "Correct Answers :" + " " + score);
                                 
                         }
                         else {
-                                alert("Wrong Answer.");
+                                alert("Wrong Answer." + " " + "Correct Answers :" + " " + score);
                                 
                         }
          
