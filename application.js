@@ -1,6 +1,6 @@
 var score = 0;
 
-var wrong = 0;
+var wrong = 1;
 
 var i = 0;
 
