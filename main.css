@@ -49,6 +49,11 @@ table {
 
 /* End of CSS Reset */
 
+h1{
+	text-align:center;
+	margin-top: 40px;
+}	
+
 p {
 	padding-bottom: 5px;
 }
